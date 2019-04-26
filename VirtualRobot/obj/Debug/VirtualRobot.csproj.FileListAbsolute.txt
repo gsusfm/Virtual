@@ -1,0 +1,261 @@
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\ApplicationInsights.config
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll.config
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\VirtualRobot.pdb
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\WebGrease.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.pdb
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csprojResolveAssemblyReference.cache
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CoreCompileInputs.cache
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.pdb
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\ApplicationInsights.config
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll.config
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.pdb
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\WebGrease.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.pdb
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.xml
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csprojResolveAssemblyReference.cache
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CoreCompileInputs.cache
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.dll
+C:\Users\ulacit\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.pdb
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\ApplicationInsights.config
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll.config
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.pdb
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\WebGrease.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.pdb
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csprojAssemblyReference.cache
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CopyComplete
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.pdb
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\Google.Protobuf.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Razor.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.dll
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Razor.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jesus\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\ApplicationInsights.config
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll.config
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\VirtualRobot.pdb
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Razor.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\WebGrease.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Google.Protobuf.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Razor.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.pdb
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.xml
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csprojAssemblyReference.cache
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CoreCompileInputs.cache
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CopyComplete
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.dll
+C:\Users\Virtual Robot\Desktop\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.pdb
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\ApplicationInsights.config
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll.config
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\VirtualRobot.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\VirtualRobot.pdb
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\EntityFramework.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\MySql.Data.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Razor.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\WebGrease.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Google.Protobuf.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\EntityFramework.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\EntityFramework.SqlServer.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\MySql.Data.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\MySql.Data.EntityFramework.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Helpers.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Mvc.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Razor.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.WebPages.Razor.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\System.Web.Optimization.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Antlr3.Runtime.pdb
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Newtonsoft.Json.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\Microsoft.AI.Web.xml
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csprojAssemblyReference.cache
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.csproj.CopyComplete
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.dll
+C:\Users\jesus\Documents\gustavo\VirtualRobot\VirtualRobot\obj\Debug\VirtualRobot.pdb

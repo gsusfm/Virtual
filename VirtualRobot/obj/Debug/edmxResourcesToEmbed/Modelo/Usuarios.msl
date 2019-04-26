@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="virtualrobot_playerModelStoreContainer" CdmEntityContainer="virtualrobot_playerEntities">
+    <EntitySetMapping Name="Currency">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Currency">
+        <MappingFragment StoreEntitySet="Currency">
+          <ScalarProperty Name="idCurrency" ColumnName="idCurrency" />
+          <ScalarProperty Name="nomCurrency" ColumnName="nomCurrency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Currency_Jugador">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Currency_Jugador">
+        <MappingFragment StoreEntitySet="Currency_Jugador">
+          <ScalarProperty Name="idCurrency" ColumnName="idCurrency" />
+          <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Juegos">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Juegos">
+        <MappingFragment StoreEntitySet="Juegos">
+          <ScalarProperty Name="idJuego" ColumnName="idJuego" />
+          <ScalarProperty Name="nomJuego" ColumnName="nomJuego" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jugador">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Jugador">
+        <MappingFragment StoreEntitySet="Jugador">
+          <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="passwordHash" ColumnName="passwordHash" />
+          <ScalarProperty Name="passwordSalt" ColumnName="passwordSalt" />
+          <ScalarProperty Name="fecNacimiento" ColumnName="fecNacimiento" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="paisResidencia" ColumnName="paisResidencia" />
+          <ScalarProperty Name="fecUltimaConexion" ColumnName="fecUltimaConexion" />
+          <ScalarProperty Name="timeZone" ColumnName="timeZone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jugador_Amigo">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Jugador_Amigo">
+        <MappingFragment StoreEntitySet="Jugador_Amigo">
+          <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+          <ScalarProperty Name="IdAmigo" ColumnName="IdAmigo" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="actionUser" ColumnName="actionUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jugador_IP">
+      <EntityTypeMapping TypeName="virtualrobot_playerModel.Jugador_IP">
+        <MappingFragment StoreEntitySet="Jugador_IP">
+          <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+          <ScalarProperty Name="jugadorIP" ColumnName="jugadorIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Juego_Jugador" TypeName="virtualrobot_playerModel.Juego_Jugador" StoreEntitySet="Juego_Jugador">
+      <EndProperty Name="Juegos">
+        <ScalarProperty Name="idJuego" ColumnName="idJuego" />
+      </EndProperty>
+      <EndProperty Name="Jugador">
+        <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Logged.Master.cs" Inherits="VirtualRobot.Logged1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            height: 26px;
+        }
+        .auto-style2 {
+            height: 26px;
+            width: 1087px;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+        <asp:Image ID="Image2" runat="server" class="col-sm-4" src="/../Imagenes/Logo.png"/>
+        <asp:Label ID="Label2" runat="server" class="col-sm-4" Text="Label">Äarika Citizenship Portal</asp:Label>
+        <asp:HyperLink ID="HyperLink2" runat="server" class="col-sm-4" NavigateUrl="/Publico/Loign.aspx">Terms of Use|Privacy Policy</asp:HyperLink>      
+        </header>
+        <div style="background-color:#f5f5f5" class="col-sm-7">          
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+        </div>
+        <div class="col-sm-5">
+            <g id="Language" onmouseover="LanguageHover()">
+      <g id="Flag" transform="translate(-143.653 -3.653)">
+        <g transform="matrix(1, 0, 0, 1, 143.65, 3.65)" filter="url(#Path_5)">
+          <path id="Path_5-2" data-name="Path 5" d="M21.947,0A21.947,21.947,0,1,1,0,21.947,21.947,21.947,0,0,1,21.947,0Z" transform="translate(1671.05 36.05)" fill="#fff"/>
+        </g>
+        <image id="united-states-of-america-flag-round-icon-64" width="33.761" height="33.761" transform="translate(1819.773 44.773)" xlink:href="/../Imagenes/Usa.png"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="17.529" cy="17.529" r="17.529" transform="translate(1819.346 44.346)" opacity="0.2" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Language_Short" data-name="Language Short" transform="translate(-150.653 16.347)">
+        <g transform="matrix(1, 0, 0, 1, 150.65, -16.35)" filter="url(#Path_6)">
+          <path id="Path_6-2" data-name="Path 6" d="M15.791,0A15.791,15.791,0,1,1,0,15.791,15.791,15.791,0,0,1,15.791,0Z" transform="translate(1712 63)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 150.65, -16.35)" filter="url(#EN)">
+          <text id="EN-2" data-name="EN" transform="translate(1728 83)" fill="#454545" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-7.523" y="0">EN</tspan></text>
+        </g>
+      </g>
+      <g id="Language_Light" data-name="Language Light" transform="translate(-143.653 -3.653)">
+        <g transform="matrix(1, 0, 0, 1, 143.65, 3.65)" filter="url(#Path_8)">
+          <path id="Path_8-2" data-name="Path 8" d="M9.209,0A9.209,9.209,0,1,1,0,9.209,9.209,9.209,0,0,1,9.209,0Z" transform="translate(1692.58 82.58)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 143.65, 3.65)" filter="url(#Path_10)">
+          <path id="Path_10-2" data-name="Path 10" d="M5.856,0A5.856,5.856,0,1,1,0,5.856,5.856,5.856,0,0,1,5.856,0Z" transform="translate(1696 86)" fill="url(#radial-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Bubble" transform="translate(-143.653 -3.653)" onmouseover="LanguageHover()" onmouseout="LanguageOut()" style="visibility:hidden">
+        <g transform="matrix(1, 0, 0, 1, 143.65, 3.65)" filter="url(#Path_9)">
+          <path id="Path_9-2" data-name="Path 9" d="M16,0H77.625L88.977-8.126,100.716,0H164a16,16,0,0,1,16,16V92a16,16,0,0,1-16,16H16A16,16,0,0,1,0,92V16A16,16,0,0,1,16,0Z" transform="translate(1614 117)" fill="#fff"/>
+        </g>
+        <g id="Espanol">
+          <image id="spanish-language-jobs" width="26" height="26" transform="translate(1786.653 139.653)" xlink:href="/../Imagenes/Esp.png"/>
+          <text id="Español" transform="translate(1873.653 159.653)" fill="#454545" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="-37.63" y="0">Español</tspan></text>
+        </g>
+        <g id="English" transform="translate(5 1)">
+          <image id="united-states-of-america-flag-round-icon-64-2" width="26" height="26"transform="translate(1781.773 186.653) scale(0.763)" xlink:href="/../Imagenes/Usa.png"/>
+          <text id="English-2" transform="translate(1865.653 206.653)" fill="#454545" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="-34.488" y="0">English</tspan></text>          
+        </g>
+      </g>
+    </g>
+        </div>
+    <footer>       
+        <asp:Image ID="Image1" runat="server" class="col-sm-4" src="/../Imagenes/Links.png"/>
+        <asp:Label ID="Label1" runat="server" class="col-sm-4" Text="Label">© 2016 - 2019 Virtual Robot®. Biowiza S.A. All Rights Reserved.</asp:Label>
+        <asp:HyperLink ID="HyperLink1" runat="server" class="col-sm-4" NavigateUrl="/../Documentos/VR BETA TESTING NDA.pdf" target="_blank">Terms of Use|Privacy Policy</asp:HyperLink>      
+    </footer>
+    </form>
+    </body>
+</html>
