@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="virtualrobot_playerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Currency">
+    <Key>
+      <PropertyRef Name="idCurrency" />
+    </Key>
+    <Property Name="idCurrency" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nomCurrency" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Currency_Jugador" Relationship="Self.fk_CurrencyJugador" FromRole="Currency" ToRole="Currency_Jugador" />
+  </EntityType>
+  <EntityType Name="Currency_Jugador">
+    <Key>
+      <PropertyRef Name="idCurrency" />
+      <PropertyRef Name="idJugador" />
+    </Key>
+    <Property Name="idCurrency" Type="Int32" Nullable="false" />
+    <Property Name="idJugador" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" />
+    <NavigationProperty Name="Currency" Relationship="Self.fk_CurrencyJugador" FromRole="Currency_Jugador" ToRole="Currency" />
+    <NavigationProperty Name="Jugador" Relationship="Self.fk_JugadorCurrency" FromRole="Currency_Jugador" ToRole="Jugador" />
+  </EntityType>
+  <EntityType Name="Juegos">
+    <Key>
+      <PropertyRef Name="idJuego" />
+    </Key>
+    <Property Name="idJuego" Type="Int32" Nullable="false" />
+    <Property Name="nomJuego" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Jugador" Relationship="Self.Juego_Jugador" FromRole="Juegos" ToRole="Jugador" />
+  </EntityType>
+  <EntityType Name="Jugador">
+    <Key>
+      <PropertyRef Name="idJugador" />
+    </Key>
+    <Property Name="idJugador" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nickname" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="passwordHash" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="passwordSalt" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecNacimiento" Type="DateTime" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="paisResidencia" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="fecUltimaConexion" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="timeZone" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Currency_Jugador" Relationship="Self.fk_JugadorCurrency" FromRole="Jugador" ToRole="Currency_Jugador" />
+    <NavigationProperty Name="Jugador_Amigo" Relationship="Self.fk_idAmigo" FromRole="Jugador" ToRole="Jugador_Amigo" />
+    <NavigationProperty Name="Jugador_Amigo1" Relationship="Self.fk_idJugador" FromRole="Jugador" ToRole="Jugador_Amigo" />
+    <NavigationProperty Name="Jugador_IP" Relationship="Self.FK_Jugador" FromRole="Jugador" ToRole="Jugador_IP" />
+    <NavigationProperty Name="Juegos" Relationship="Self.Juego_Jugador" FromRole="Jugador" ToRole="Juegos" />
+  </EntityType>
+  <EntityType Name="Jugador_Amigo">
+    <Key>
+      <PropertyRef Name="idJugador" />
+    </Key>
+    <Property Name="idJugador" Type="Int32" Nullable="false" />
+    <Property Name="IdAmigo" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <Property Name="actionUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Jugador" Relationship="Self.fk_idAmigo" FromRole="Jugador_Amigo" ToRole="Jugador" />
+    <NavigationProperty Name="Jugador1" Relationship="Self.fk_idJugador" FromRole="Jugador_Amigo" ToRole="Jugador" />
+  </EntityType>
+  <EntityType Name="Jugador_IP">
+    <Key>
+      <PropertyRef Name="idJugador" />
+      <PropertyRef Name="jugadorIP" />
+    </Key>
+    <Property Name="idJugador" Type="Int32" Nullable="false" />
+    <Property Name="jugadorIP" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Jugador" Relationship="Self.FK_Jugador" FromRole="Jugador_IP" ToRole="Jugador" />
+  </EntityType>
+  <Association Name="fk_CurrencyJugador">
+    <End Role="Currency" Type="Self.Currency" Multiplicity="1" />
+    <End Role="Currency_Jugador" Type="Self.Currency_Jugador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Currency">
+        <PropertyRef Name="idCurrency" />
+      </Principal>
+      <Dependent Role="Currency_Jugador">
+        <PropertyRef Name="idCurrency" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_JugadorCurrency">
+    <End Role="Jugador" Type="Self.Jugador" Multiplicity="1" />
+    <End Role="Currency_Jugador" Type="Self.Currency_Jugador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="idJugador" />
+      </Principal>
+      <Dependent Role="Currency_Jugador">
+        <PropertyRef Name="idJugador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_idAmigo">
+    <End Role="Jugador" Type="Self.Jugador" Multiplicity="1" />
+    <End Role="Jugador_Amigo" Type="Self.Jugador_Amigo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="idJugador" />
+      </Principal>
+      <Dependent Role="Jugador_Amigo">
+        <PropertyRef Name="IdAmigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_idJugador">
+    <End Role="Jugador" Type="Self.Jugador" Multiplicity="1" />
+    <End Role="Jugador_Amigo" Type="Self.Jugador_Amigo" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="idJugador" />
+      </Principal>
+      <Dependent Role="Jugador_Amigo">
+        <PropertyRef Name="idJugador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Jugador">
+    <End Role="Jugador" Type="Self.Jugador" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Jugador_IP" Type="Self.Jugador_IP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="idJugador" />
+      </Principal>
+      <Dependent Role="Jugador_IP">
+        <PropertyRef Name="idJugador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Juego_Jugador">
+    <End Role="Juegos" Type="Self.Juegos" Multiplicity="*" />
+    <End Role="Jugador" Type="Self.Jugador" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="virtualrobot_playerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Currency" EntityType="Self.Currency" />
+    <EntitySet Name="Currency_Jugador" EntityType="Self.Currency_Jugador" />
+    <EntitySet Name="Juegos" EntityType="Self.Juegos" />
+    <EntitySet Name="Jugador" EntityType="Self.Jugador" />
+    <EntitySet Name="Jugador_Amigo" EntityType="Self.Jugador_Amigo" />
+    <EntitySet Name="Jugador_IP" EntityType="Self.Jugador_IP" />
+    <AssociationSet Name="fk_CurrencyJugador" Association="Self.fk_CurrencyJugador">
+      <End Role="Currency" EntitySet="Currency" />
+      <End Role="Currency_Jugador" EntitySet="Currency_Jugador" />
+    </AssociationSet>
+    <AssociationSet Name="fk_JugadorCurrency" Association="Self.fk_JugadorCurrency">
+      <End Role="Jugador" EntitySet="Jugador" />
+      <End Role="Currency_Jugador" EntitySet="Currency_Jugador" />
+    </AssociationSet>
+    <AssociationSet Name="fk_idAmigo" Association="Self.fk_idAmigo">
+      <End Role="Jugador" EntitySet="Jugador" />
+      <End Role="Jugador_Amigo" EntitySet="Jugador_Amigo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_idJugador" Association="Self.fk_idJugador">
+      <End Role="Jugador" EntitySet="Jugador" />
+      <End Role="Jugador_Amigo" EntitySet="Jugador_Amigo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Jugador" Association="Self.FK_Jugador">
+      <End Role="Jugador" EntitySet="Jugador" />
+      <End Role="Jugador_IP" EntitySet="Jugador_IP" />
+    </AssociationSet>
+    <AssociationSet Name="Juego_Jugador" Association="Self.Juego_Jugador">
+      <End Role="Juegos" EntitySet="Juegos" />
+      <End Role="Jugador" EntitySet="Jugador" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
