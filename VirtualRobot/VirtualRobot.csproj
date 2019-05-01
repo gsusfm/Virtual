@@ -331,7 +331,7 @@
     <Compile Include="Modelo\Jugador_IP.cs">
       <DependentUpon>Usuarios.tt</DependentUpon>
     </Compile>
-    <Compile Include="Modelo\LoginRequest.cs" />
+    <Compile Include="Modelo\LoginRerquest.cs" />
     <Compile Include="Modelo\Usuarios.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
