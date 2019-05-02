@@ -193,8 +193,8 @@
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Default.aspx" />
-    <Content Include="Login.aspx" />
+    <Content Include="Vistas\Logeado\Logged.aspx" />
+    <Content Include="Vistas\Publico\Login.aspx" />
     <Content Include="Modelo\Usuarios.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Usuarios.edmx</DependentUpon>
@@ -205,8 +205,8 @@
       <DependentUpon>Usuarios.edmx</DependentUpon>
       <LastGenOutput>Usuarios.cs</LastGenOutput>
     </Content>
-    <Content Include="Login.Master" />
-    <Content Include="Logged.Master" />
+    <Content Include="Masters\Login.Master" />
+    <Content Include="Masters\Logged.Master" />
     <Content Include="Documentos\English\Code of Conduct.pdf" />
     <Content Include="Documentos\English\Delete Account.pdf" />
     <Content Include="Documentos\English\IMPORTANT HEALTH _ SAFETY PRECAUTIONS INFORMATION.pdf" />
@@ -270,16 +270,16 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="Vistas\Logeado\BetaMemberPage.aspx" />
-    <Content Include="Vistas\Logeado\BetaMember.aspx" />
-    <Content Include="Vistas\Logeado\BetaDNA.aspx" />
-    <Content Include="Vistas\Logeado\Beta.aspx" />
-    <Content Include="Vistas\Publico\DeleteSuccess.aspx" />
-    <Content Include="Vistas\Logeado\SecuritySettings.aspx" />
-    <Content Include="Vistas\Logeado\GeneralSettings.aspx" />
-    <Content Include="Vistas\Logeado\Delete.aspx" />
-    <Content Include="Vistas\Logeado\ContactSuccess.aspx" />
-    <Content Include="Vistas\Logeado\Contact.aspx" />
+    <Content Include="VistasSVG\Logeado\BetaMemberPage.aspx" />
+    <Content Include="VistasSVG\Logeado\BetaMember.aspx" />
+    <Content Include="VistasSVG\Logeado\BetaDNA.aspx" />
+    <Content Include="VistasSVG\Logeado\Beta.aspx" />
+    <Content Include="VistasSVG\Publico\DeleteSuccess.aspx" />
+    <Content Include="VistasSVG\Logeado\SecuritySettings.aspx" />
+    <Content Include="VistasSVG\Logeado\GeneralSettings.aspx" />
+    <Content Include="VistasSVG\Logeado\Delete.aspx" />
+    <Content Include="VistasSVG\Logeado\ContactSuccess.aspx" />
+    <Content Include="VistasSVG\Logeado\Contact.aspx" />
     <Content Include="Imagenes\Coin.png" />
     <Content Include="Imagenes\LogoP.png" />
     <Content Include="Imagenes\Logo.png" />
@@ -300,11 +300,11 @@
     <Content Include="Modelo\Usuarios.edmx.diagram">
       <DependentUpon>Usuarios.edmx</DependentUpon>
     </Content>
-    <Content Include="Vistas\Logeado\Awards.aspx" />
-    <Content Include="Vistas\Logeado\Logged.aspx" />
-    <Content Include="Vistas\Publico\RecoverySuccess.aspx" />
-    <Content Include="Vistas\Publico\Recovery.aspx" />
-    <Content Include="Vistas\Publico\RegistroSuccess.aspx" />
+    <Content Include="VistasSVG\Logeado\Awards.aspx" />
+    <Content Include="VistasSVG\Logeado\Logged.aspx" />
+    <Content Include="VistasSVG\Publico\RecoverySuccess.aspx" />
+    <Content Include="VistasSVG\Publico\Recovery.aspx" />
+    <Content Include="VistasSVG\Publico\RegistroSuccess.aspx" />
     <Content Include="Test.aspx" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -327,9 +327,10 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Vistas\Publico\Login.aspx" />
-    <Content Include="Vistas\Publico\Registro.aspx" />
+    <Content Include="VistasSVG\Publico\Login.aspx" />
+    <Content Include="VistasSVG\Publico\Registro.aspx" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Vistas\Publico\Registro.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -343,32 +344,32 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Control\AppUsuarioManager.cs" />
     <Compile Include="Control\CuentaManager.cs" />
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Vistas\Logeado\Logged.aspx.cs">
+      <DependentUpon>Logged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Vistas\Logeado\Logged.aspx.designer.cs">
+      <DependentUpon>Logged.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Logged.Master.cs">
+    <Compile Include="Masters\Logged.Master.cs">
       <DependentUpon>Logged.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Logged.Master.designer.cs">
+    <Compile Include="Masters\Logged.Master.designer.cs">
       <DependentUpon>Logged.Master</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
+    <Compile Include="Vistas\Publico\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
+    <Compile Include="Vistas\Publico\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.Master.cs">
+    <Compile Include="Masters\Login.Master.cs">
       <DependentUpon>Login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.Master.designer.cs">
+    <Compile Include="Masters\Login.Master.designer.cs">
       <DependentUpon>Login.Master</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Currency.cs">
@@ -405,112 +406,112 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Usuarios.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaMemberPage.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\BetaMemberPage.aspx.cs">
       <DependentUpon>BetaMemberPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaMemberPage.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\BetaMemberPage.aspx.designer.cs">
       <DependentUpon>BetaMemberPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaMember.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\BetaMember.aspx.cs">
       <DependentUpon>BetaMember.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaMember.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\BetaMember.aspx.designer.cs">
       <DependentUpon>BetaMember.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaDNA.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\BetaDNA.aspx.cs">
       <DependentUpon>BetaDNA.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\BetaDNA.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\BetaDNA.aspx.designer.cs">
       <DependentUpon>BetaDNA.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\Beta.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\Beta.aspx.cs">
       <DependentUpon>Beta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\Beta.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\Beta.aspx.designer.cs">
       <DependentUpon>Beta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Publico\DeleteSuccess.aspx.cs">
+    <Compile Include="VistasSVG\Publico\DeleteSuccess.aspx.cs">
       <DependentUpon>DeleteSuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\DeleteSuccess.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\DeleteSuccess.aspx.designer.cs">
       <DependentUpon>DeleteSuccess.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\SecuritySettings.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\SecuritySettings.aspx.cs">
       <DependentUpon>SecuritySettings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\SecuritySettings.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\SecuritySettings.aspx.designer.cs">
       <DependentUpon>SecuritySettings.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\GeneralSettings.aspx.cs">
       <DependentUpon>GeneralSettings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\GeneralSettings.aspx.designer.cs">
       <DependentUpon>GeneralSettings.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\Delete.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\Delete.aspx.cs">
       <DependentUpon>Delete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\Delete.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\Delete.aspx.designer.cs">
       <DependentUpon>Delete.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\ContactSuccess.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\ContactSuccess.aspx.cs">
       <DependentUpon>ContactSuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\ContactSuccess.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\ContactSuccess.aspx.designer.cs">
       <DependentUpon>ContactSuccess.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\Contact.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\Contact.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\Awards.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\Awards.aspx.cs">
       <DependentUpon>Awards.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\Awards.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\Awards.aspx.designer.cs">
       <DependentUpon>Awards.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Logeado\Logged.aspx.cs">
+    <Compile Include="VistasSVG\Logeado\Logged.aspx.cs">
       <DependentUpon>Logged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Logeado\Logged.aspx.designer.cs">
+    <Compile Include="VistasSVG\Logeado\Logged.aspx.designer.cs">
       <DependentUpon>Logged.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Publico\RecoverySuccess.aspx.cs">
+    <Compile Include="VistasSVG\Publico\RecoverySuccess.aspx.cs">
       <DependentUpon>RecoverySuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\RecoverySuccess.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\RecoverySuccess.aspx.designer.cs">
       <DependentUpon>RecoverySuccess.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Publico\Recovery.aspx.cs">
+    <Compile Include="VistasSVG\Publico\Recovery.aspx.cs">
       <DependentUpon>Recovery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\Recovery.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\Recovery.aspx.designer.cs">
       <DependentUpon>Recovery.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Publico\RegistroSuccess.aspx.cs">
+    <Compile Include="VistasSVG\Publico\RegistroSuccess.aspx.cs">
       <DependentUpon>RegistroSuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\RegistroSuccess.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\RegistroSuccess.aspx.designer.cs">
       <DependentUpon>RegistroSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Test.aspx.cs">
@@ -521,18 +522,18 @@
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vistas\Publico\Login.aspx.cs">
+    <Compile Include="VistasSVG\Publico\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\Login.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Publico\Registro.aspx.cs">
+    <Compile Include="VistasSVG\Publico\Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\Publico\Registro.aspx.designer.cs">
+    <Compile Include="VistasSVG\Publico\Registro.aspx.designer.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
@@ -541,6 +542,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Publico\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Publico\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

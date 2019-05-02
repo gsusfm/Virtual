@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace VirtualRobot
+namespace VirtualRobot.Vistas.Publico
 {
     public partial class Registro : System.Web.UI.Page
     {

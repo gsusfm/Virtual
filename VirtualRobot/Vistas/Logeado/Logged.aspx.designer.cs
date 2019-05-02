@@ -10,6 +10,6 @@
 namespace VirtualRobot {
     
     
-    public partial class Logged {
+    public partial class Logged2 {
     }
 }
