@@ -21,6 +21,9 @@
             </tr>
             <tr>
                 <td>
+                    <label>
+                        <asp:CheckBox ID="Persist" runat="server" Text="Recordarme" />
+                    </label>
                     <asp:Button ID="Button1" runat="server" Text="Continuar" OnClick="Button1_Click" />
                 </td>
                 <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">

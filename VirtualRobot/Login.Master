@@ -38,8 +38,8 @@
         <table style="width:100%;">
             <tr>
                 <td class="auto-style3" style="margin-left: auto; margin-right: auto; text-align: center;">
-                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="https://www.facebook.com/robotvirtual/" CssClass="left" target="_blank"><i class="fa text-muted social-icons">&#xf082;</i></asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="https://twitter.com/robotvirtual" CssClass="center" target="_blank"><i class="fa text-muted social-icons">&#xf099;</i></asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="https://www.facebook.com/OllieAdventures/" CssClass="left" target="_blank"><i class="fa text-muted social-icons">&#xf082;</i></asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="https://twitter.com/OllieDaBot" CssClass="center" target="_blank"><i class="fa text-muted social-icons">&#xf099;</i></asp:HyperLink>
                     <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="http://instagram.com/robotvirtual" CssClass="right" target="_blank"><i class="fa text-muted social-icons">&#xf16d;</i></asp:HyperLink>
                 </td>
                 <td style="margin-left: auto; margin-right: auto; text-align: center;">

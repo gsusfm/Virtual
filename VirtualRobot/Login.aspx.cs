@@ -27,10 +27,12 @@ namespace VirtualRobot
                 usuarioActual = await manager.Validar(TextBox1.Text, TextBox2.Text);
                 if (usuarioActual != null)
                 {
-                    if (!string.IsNullOrEmpty(usuarioActual.nickname))
+                    if (!string.IsNullOrEmpty(usuarioActual.CadenaToken))
                     {
+                        var jwthandler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+                        usuarioActual.Token = jwthandler.ReadToken(usuarioActual.CadenaToken);
                         Session["UsuarioActual"] = usuarioActual;
-                        Response.Redirect("Logged.aspx");
+                        FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, Persist.Checked);
 
                     }
                     else

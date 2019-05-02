@@ -9,6 +9,7 @@
 
 namespace VirtualRobot.Modelo
 {
+    using Microsoft.IdentityModel.Tokens;
     using System;
     using System.Collections.Generic;
     
@@ -33,7 +34,10 @@ namespace VirtualRobot.Modelo
         public string paisResidencia { get; set; }
         public string fecUltimaConexion { get; set; }
         public string timeZone { get; set; }
-    
+
+        public SecurityToken Token { get; set; }
+        public string CadenaToken { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Currency_Jugador> Currency_Jugador { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
