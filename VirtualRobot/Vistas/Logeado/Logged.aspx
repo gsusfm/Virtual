@@ -1,275 +1,543 @@
 ﻿<%@ Page Title="" Language="C#" Async="true" MasterPageFile="~/Masters/Logged.Master" AutoEventWireup="true" CodeBehind="Logged.aspx.cs" Inherits="VirtualRobot.Logged2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
-  <defs>       
-    <filter id="Rectangle_14" x="708" y="96" width="841.074" height="909.169" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f90"/>
-      <stop offset="1" stop-color="#fabc5e"/>
-    </linearGradient>
-    <filter id="Rectangle_27" x="1084.5" y="895.5" width="88" height="47" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
-      <feFlood flood-opacity="0.31"/>
-      <feComposite operator="in" in2="blur-2"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="EDIT" x="1106.5" y="903.5" width="45" height="29" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-3"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_22" x="1444.465" y="138.843" width="44.218" height="55.348" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-4"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#00c4f3"/>
-      <stop offset="1" stop-color="#8091ff"/>
-    </linearGradient>
-    <filter id="BG" x="376" y="790.05" width="287" height="99.901" filterUnits="userSpaceOnUse">
-      <feOffset dy="5" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-5"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-5"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_4" x="399.5" y="809.501" width="59.469" height="59.469" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-6"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-6"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_22-2" x="414.358" y="818.31" width="30.206" height="38.063" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-7"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-7"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Beta_Testing_Program" x="481.443" y="801.569" width="161" height="75" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-8"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-8"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Security_Settings" x="470.291" y="597.295" width="168" height="36" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-9"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-9"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_4-2" x="398.5" y="587.74" width="57.581" height="57.582" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-10"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-10"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_22-3" x="412.914" y="596.276" width="29.188" height="36.808" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-11"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-11"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="General_Settings" x="469.291" y="529.864" width="166" height="36" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-12"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-12"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_4-3" x="398.5" y="522.309" width="57.581" height="57.582" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-13"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-13"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_22-4" x="412.914" y="530.844" width="29.188" height="36.808" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-14"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-14"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Human_Profile" x="469.291" y="464" width="146" height="36" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-15"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-15"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_4-4" x="398.5" y="457.445" width="57.581" height="57.582" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur-16"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-16"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_22-5" x="412.914" y="465.98" width="29.188" height="36.808" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-17"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-17"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_26" x="505.403" y="262.939" width="30.119" height="25.196" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-18"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-18"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_27" x="511.233" y="267.341" width="18.458" height="18.458" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-19"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-19"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Path_28" x="524.21" y="268.142" width="8.153" height="8.154" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-20"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-20"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_30" x="1579" y="67" width="259.492" height="253.654" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="2" result="blur-21"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-21"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_29" x="1689.83" y="67" width="230.17" height="131.579" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="2" result="blur-21"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-21"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_26" x="-1.5" y="0" width="1923" height="67.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-22"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-22"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_299" x="1579" y="67" width="259.492" height="206.579" filterUnits="userSpaceOnUse">
-      <feOffset dy="2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="2" result="blur-22"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-22"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 237 236">
-      <image width="237" height="236" xlink:href="/../Imagenes/Coin.png"/>
-    </pattern>
-    <pattern id="pattern-3" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1758 1950">
-      <image width="1758" height="1950" xlink:href="/../Imagenes/Logo.png"/>
-    </pattern>
-    <clipPath id="clip-Logged_Language">
-      <rect width="1920" height="1080"/>
-    </clipPath>
-    <image id="image" width="33.265" height="33.265" xlink:href="/../Imagenes/Usa.png"/>
-  </defs>
-  <g id="Logged_Language" data-name="Logged Language" clip-path="url(#clip-Logged_Language)">
-    <rect width="1920" height="1080" fill="#fff"/>
-    <rect id="Rectangle_5" data-name="Rectangle 5" width="1920" height="1080" fill="#f5f5f5"/>
-    <g id="Group_14" data-name="Group 14" transform="translate(-45)">
-      <g id="InfoBG" transform="translate(-108.152 44.613)">
-        <g transform="matrix(1, 0, 0, 1, 153.15, -44.61)" filter="url(#Rectangle_14)">
-          <rect id="Rectangle_14-2" data-name="Rectangle 14" width="823.074" height="891.169" rx="25" transform="translate(717 102)" fill="#fff"/>
-        </g>
-        <path id="Rectangle_9" data-name="Rectangle 9" d="M0,0H808.791a0,0,0,0,1,0,0V734.238a23,23,0,0,1-23,23H23a23,23,0,0,1-23-23V0A0,0,0,0,1,0,0Z" transform="translate(877.294 183.283)" fill="#f5f5f5"/>
-      </g>
-      <g id="Buttons">
-        <g id="Edit_Btm" data-name="Edit Btm" transform="translate(1022 889)">
-          <g transform="matrix(1, 0, 0, 1, -977, -889)" filter="url(#Rectangle_27)">
-            <g id="Rectangle_27-2" data-name="Rectangle 27" transform="translate(1089 899)" stroke="#f9a01b" stroke-width="3" fill="url(#linear-gradient)">
-              <rect width="79" height="38" rx="16" stroke="none"/>
-              <rect x="1.5" y="1.5" width="76" height="35" rx="14.5" fill="none"/>
-            </g>
-          </g>
-          <g transform="matrix(1, 0, 0, 1, -977, -889)" filter="url(#EDIT)">
-            <text id="EDIT-2" data-name="EDIT" transform="translate(1129 925)" fill="#fff" font-size="19" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-20.637" y="0">EDIT</tspan></text>
-          </g>
-        </g>
-      </g>
-      <g id="Credentials" transform="translate(880 372)">
-        <g id="Gender" transform="translate(-70 370)">
-          <text id="Gender-2" data-name="Gender" transform="translate(0 15)" fill="#3c3c3c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Gender</tspan></text>
-          <line id="Line_1" data-name="Line 1" x2="721.494" transform="translate(0.396 69.016)" fill="none" stroke="#92dad7" stroke-width="2"/>
-          <text id="Gender-3" data-name="Gender" transform="translate(455 55)" fill="#7a7a7a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-25.875" y="0">Gender</tspan></text>
-        </g>
-        <g id="TimeZone" transform="translate(-70 268)">
-          <text id="Time_Zone" data-name="Time Zone" transform="translate(0 15)" fill="#3c3c3c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Time Zone</tspan></text>
-          <line id="Line_1-2" data-name="Line 1" x2="721.494" transform="translate(0.396 69.016)" fill="none" stroke="#92dad7" stroke-width="2"/>
-          <text id="Time_Zone-2" data-name="Time Zone" transform="translate(455 55)" fill="#7a7a7a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-37.355" y="0">Time Zone</tspan></text>
-        </g>
-        <g id="CountryOfResidence" transform="translate(-70 166)">
-          <text id="Country_region_of_residence" data-name="Country/region of residence" transform="translate(0 15)" fill="#3c3c3c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Country/region of residence</tspan></text>
-          <line id="Line_1-3" data-name="Line 1" x2="721.494" transform="translate(0.396 69.016)" fill="none" stroke="#92dad7" stroke-width="2"/>
-          <text id="Place" transform="translate(455 55)" fill="#7a7a7a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-18.367" y="0">Place</tspan></text>
-        </g>
-        <g id="DateOfBirth" transform="translate(-70 64)">
-          <text id="Date_of_birth" data-name="Date of birth" transform="translate(0 15)" fill="#3c3c3c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Date of birth</tspan></text>
-          <line id="Line_1-4" data-name="Line 1" x2="721.494" transform="translate(0.396 69.016)" fill="none" stroke="#92dad7" stroke-width="2"/>
-          <text id="Month_Day_Year" data-name="Month/Day/Year" transform="translate(455 55)" fill="#7a7a7a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-58.176" y="0">Month/Day/Year</tspan></text>
-        </g>
-        <g id="Username_ID" data-name="Username ID" transform="translate(-70 -38)">
-          <text id="Username_ID-2" data-name="Username ID" transform="translate(0 15)" fill="#3c3c3c" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Username ID</tspan></text>
-          <line id="Line_1-5" data-name="Line 1" x2="721.494" transform="translate(0.396 69.016)" fill="none" stroke="#92dad7" stroke-width="2"/>
-          <text id="Username_ID-3" data-name="Username ID" transform="translate(455 55)" fill="#7a7a7a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-45.457" y="0">Username ID</tspan></text>
-        </g>
-      </g>
-      <text id="Human_Profile-2" data-name="Human Profile" transform="translate(912 177)" fill="#454545" font-size="35" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-119.056" y="0">Human Profile</tspan></text>
-      <g id="Basic_User_Info" data-name="Basic User Info">
-        <text id="Citizen_since_Month_Day_Year" data-name="Citizen since Month/Day/Year" transform="translate(1455 255)" fill="#454545" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-97.654" y="0">Citizen since Month/Day/Year</tspan></text>
-      </g>
-    </g>
-    <g id="Bubble" transform="translate(-143.653 -3.653)" onmouseover="LanguageHover()" onmouseout="LanguageOut()" style="visibility:hidden">
-        <g transform="matrix(1, 0, 0, 1, 143.65, 3.65)" filter="url(#Path_9)">
-          <path id="Path_9-2" data-name="Path 9" d="M16,0H77.625L88.977-8.126,100.716,0H164a16,16,0,0,1,16,16V92a16,16,0,0,1-16,16H16A16,16,0,0,1,0,92V16A16,16,0,0,1,16,0Z" transform="translate(1614 117)" fill="#fff"/>
-        </g>
-        <g id="Espanol" onclick="Espanol()">
-          <image id="spanish-language-jobs" width="26" height="26" transform="translate(1786.653 139.653)" xlink:href="/../Imagenes/Esp.png"/>
-          <text id="Español" transform="translate(1873.653 159.653)" fill="#454545" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="-37.63" y="0">Español</tspan></text>
-        </g>
-        <g id="English" transform="translate(5 1)" onclick="English()">
-          <image id="united-states-of-america-flag-round-icon-64-2" width="26" height="26"transform="translate(1781.773 186.653) scale(0.763)" xlink:href="/../Imagenes/Usa.png"/>
-          <text id="English-2" transform="translate(1865.653 206.653)" fill="#454545" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="-34.488" y="0">English</tspan></text>          
-        </g>
-      </g>
-    <g id="Bubble2" transform="translate(-59.984 -49.653)" onmouseover="UserHover()" onmouseout="UserOut()" style="visibility:hidden">
-      <g transform="matrix(1, 0, 0, 1, 59.98, 49.65)" filter="url(#Rectangle_30)">
-        <path id="Rectangle_30-2" data-name="Rectangle 30" d="M17,0H247.492a0,0,0,0,1,0,0V224.654a17,17,0,0,1-17,17H17a17,17,0,0,1-17-17V17A17,17,0,0,1,17,0Z" transform="translate(1585 71)" fill="#ff7964"/>
-      </g>
-      <g transform="matrix(1, 0, 0, 1, 59.98, 49.65)" filter="url(#Rectangle_299)">
-        <path id="Rectangle_299-2" data-name="Rectangle 29" d="M17,0H247.492a0,0,0,0,1,0,0V194.579a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V17A17,17,0,0,1,17,0Z" transform="translate(1585 71)" fill="#fff"/>
-      </g>
-      <line id="Line_3" data-name="Line 3" x2="214" transform="translate(1661.484 260.153)" fill="none" stroke="#c3c3c3" stroke-width="1"/>
-      <circle id="UserImage" cx="29" cy="29" r="29" transform="translate(1739.164 139.653)" fill="#454545"/>
-      <text id="Username_ID-5" data-name="Username ID" transform="translate(1768.194 236.653)" fill="#454545" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="-48.298" y="0">Username ID</tspan></text>
-      <text id="Contac_Us" data-name="Contac Us" transform="translate(1768.194 292.653)" fill="#454545" font-size="17" font-family="SegoeUI, Segoe UI"><a href="Contact.aspx"><tspan x="-37.959" y="0">Contac Us</tspan></a></text>
-      <text id="LOG_OUT" data-name="LOG OUT" transform="translate(1768.984 344.653)" fill="#fff" font-size="17" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><a href="../Publico/Login.aspx"><tspan x="-36.54" y="0">LOG OUT</tspan></a></text>
-    </g>   
-  </g>
-</svg>
+
+    <table style="width:100%;">
+        <tr>
+            <td><asp:Label ID="Label5" runat="server" Text="Label">Username ID</asp:Label></td>
+            <td><asp:TextBox ID="TextBox1" runat="server" Placeholder="4-8 Characters"></asp:TextBox></td>
+        </tr>
+        <tr>
+            <td><asp:Label ID="Label9" runat="server" Text="Label">Date of birth</asp:Label></td>
+            <td><asp:TextBox ID="TextBox5" runat="server" type="date"></asp:TextBox></td>
+        </tr>
+        <tr>
+            <td><asp:Label ID="Label10" runat="server" Text="Label">Country/region of residence</asp:Label></td>
+            <td><asp:DropDownList ID="DropDownList1" runat="server" CssClass="col-xs-offset-0">
+            <asp:ListItem Value="AF">Afghanistan</asp:ListItem>
+
+            <asp:ListItem Value="AL">Albania</asp:ListItem>
+
+            <asp:ListItem Value="DZ">Algeria</asp:ListItem>
+
+            <asp:ListItem Value="AS">American Samoa</asp:ListItem>
+
+            <asp:ListItem Value="AD">Andorra</asp:ListItem>
+
+            <asp:ListItem Value="AO">Angola</asp:ListItem>
+
+            <asp:ListItem Value="AI">Anguilla</asp:ListItem>
+
+            <asp:ListItem Value="AQ">Antarctica</asp:ListItem>
+
+            <asp:ListItem Value="AG">Antigua And Barbuda</asp:ListItem>
+
+            <asp:ListItem Value="AR">Argentina</asp:ListItem>
+
+            <asp:ListItem Value="AM">Armenia</asp:ListItem>
+
+            <asp:ListItem Value="AW">Aruba</asp:ListItem>
+
+            <asp:ListItem Value="AU">Australia</asp:ListItem>
+
+            <asp:ListItem Value="AT">Austria</asp:ListItem>
+
+            <asp:ListItem Value="AZ">Azerbaijan</asp:ListItem>
+
+            <asp:ListItem Value="BS">Bahamas</asp:ListItem>
+
+            <asp:ListItem Value="BH">Bahrain</asp:ListItem>
+
+            <asp:ListItem Value="BD">Bangladesh</asp:ListItem>
+
+            <asp:ListItem Value="BB">Barbados</asp:ListItem>
+
+            <asp:ListItem Value="BY">Belarus</asp:ListItem>
+
+            <asp:ListItem Value="BE">Belgium</asp:ListItem>
+
+            <asp:ListItem Value="BZ">Belize</asp:ListItem>
+
+            <asp:ListItem Value="BJ">Benin</asp:ListItem>
+
+            <asp:ListItem Value="BM">Bermuda</asp:ListItem>
+
+            <asp:ListItem Value="BT">Bhutan</asp:ListItem>
+
+            <asp:ListItem Value="BO">Bolivia</asp:ListItem>
+
+            <asp:ListItem Value="BA">Bosnia And Herzegowina</asp:ListItem>
+
+            <asp:ListItem Value="BW">Botswana</asp:ListItem>
+
+            <asp:ListItem Value="BV">Bouvet Island</asp:ListItem>
+
+            <asp:ListItem Value="BR">Brazil</asp:ListItem>
+
+            <asp:ListItem Value="IO">British Indian Ocean Territory</asp:ListItem>
+
+            <asp:ListItem Value="BN">Brunei Darussalam</asp:ListItem>
+
+            <asp:ListItem Value="BG">Bulgaria</asp:ListItem>
+
+            <asp:ListItem Value="BF">Burkina Faso</asp:ListItem>
+
+            <asp:ListItem Value="BI">Burundi</asp:ListItem>
+
+            <asp:ListItem Value="KH">Cambodia</asp:ListItem>
+
+            <asp:ListItem Value="CM">Cameroon</asp:ListItem>
+
+            <asp:ListItem Value="CA">Canada</asp:ListItem>
+
+            <asp:ListItem Value="CV">Cape Verde</asp:ListItem>
+
+            <asp:ListItem Value="KY">Cayman Islands</asp:ListItem>
+
+            <asp:ListItem Value="CF">Central African Republic</asp:ListItem>
+
+            <asp:ListItem Value="TD">Chad</asp:ListItem>
+
+            <asp:ListItem Value="CL">Chile</asp:ListItem>
+
+            <asp:ListItem Value="CN">China</asp:ListItem>
+
+            <asp:ListItem Value="CX">Christmas Island</asp:ListItem>
+
+            <asp:ListItem Value="CC">Cocos (Keeling) Islands</asp:ListItem>
+
+            <asp:ListItem Value="CO">Colombia</asp:ListItem>
+
+            <asp:ListItem Value="KM">Comoros</asp:ListItem>
+
+            <asp:ListItem Value="CG">Congo</asp:ListItem>
+
+            <asp:ListItem Value="CK">Cook Islands</asp:ListItem>
+
+            <asp:ListItem Value="CR">Costa Rica</asp:ListItem>
+
+            <asp:ListItem Value="CI">Cote D'Ivoire</asp:ListItem>
+
+            <asp:ListItem Value="HR">Croatia (Local Name: Hrvatska)</asp:ListItem>
+
+            <asp:ListItem Value="CU">Cuba</asp:ListItem>
+
+            <asp:ListItem Value="CY">Cyprus</asp:ListItem>
+
+            <asp:ListItem Value="CZ">Czech Republic</asp:ListItem>
+
+            <asp:ListItem Value="DK">Denmark</asp:ListItem>
+
+            <asp:ListItem Value="DJ">Djibouti</asp:ListItem>
+
+            <asp:ListItem Value="DM">Dominica</asp:ListItem>
+
+            <asp:ListItem Value="DO">Dominican Republic</asp:ListItem>
+
+            <asp:ListItem Value="TP">East Timor</asp:ListItem>
+
+            <asp:ListItem Value="EC">Ecuador</asp:ListItem>
+
+            <asp:ListItem Value="EG">Egypt</asp:ListItem>
+
+            <asp:ListItem Value="SV">El Salvador</asp:ListItem>
+
+            <asp:ListItem Value="GQ">Equatorial Guinea</asp:ListItem>
+
+            <asp:ListItem Value="ER">Eritrea</asp:ListItem>
+
+            <asp:ListItem Value="EE">Estonia</asp:ListItem>
+
+            <asp:ListItem Value="ET">Ethiopia</asp:ListItem>
+
+            <asp:ListItem Value="FK">Falkland Islands (Malvinas)</asp:ListItem>
+
+            <asp:ListItem Value="FO">Faroe Islands</asp:ListItem>
+
+            <asp:ListItem Value="FJ">Fiji</asp:ListItem>
+
+            <asp:ListItem Value="FI">Finland</asp:ListItem>
+
+            <asp:ListItem Value="FR">France</asp:ListItem>
+
+            <asp:ListItem Value="GF">French Guiana</asp:ListItem>
+
+            <asp:ListItem Value="PF">French Polynesia</asp:ListItem>
+
+            <asp:ListItem Value="TF">French Southern Territories</asp:ListItem>
+
+            <asp:ListItem Value="GA">Gabon</asp:ListItem>
+
+            <asp:ListItem Value="GM">Gambia</asp:ListItem>
+
+            <asp:ListItem Value="GE">Georgia</asp:ListItem>
+
+            <asp:ListItem Value="DE">Germany</asp:ListItem>
+
+            <asp:ListItem Value="GH">Ghana</asp:ListItem>
+
+            <asp:ListItem Value="GI">Gibraltar</asp:ListItem>
+
+            <asp:ListItem Value="GR">Greece</asp:ListItem>
+
+            <asp:ListItem Value="GL">Greenland</asp:ListItem>
+
+            <asp:ListItem Value="GD">Grenada</asp:ListItem>
+
+            <asp:ListItem Value="GP">Guadeloupe</asp:ListItem>
+
+            <asp:ListItem Value="GU">Guam</asp:ListItem>
+
+            <asp:ListItem Value="GT">Guatemala</asp:ListItem>
+
+            <asp:ListItem Value="GN">Guinea</asp:ListItem>
+
+            <asp:ListItem Value="GW">Guinea-Bissau</asp:ListItem>
+
+            <asp:ListItem Value="GY">Guyana</asp:ListItem>
+
+            <asp:ListItem Value="HT">Haiti</asp:ListItem>
+
+            <asp:ListItem Value="HM">Heard And Mc Donald Islands</asp:ListItem>
+
+            <asp:ListItem Value="VA">Holy See (Vatican City State)</asp:ListItem>
+
+            <asp:ListItem Value="HN">Honduras</asp:ListItem>
+
+            <asp:ListItem Value="HK">Hong Kong</asp:ListItem>
+
+            <asp:ListItem Value="HU">Hungary</asp:ListItem>
+
+            <asp:ListItem Value="IS">Icel And</asp:ListItem>
+
+            <asp:ListItem Value="IN">India</asp:ListItem>
+
+            <asp:ListItem Value="ID">Indonesia</asp:ListItem>
+
+            <asp:ListItem Value="IR">Iran (Islamic Republic Of)</asp:ListItem>
+
+            <asp:ListItem Value="IQ">Iraq</asp:ListItem>
+
+            <asp:ListItem Value="IE">Ireland</asp:ListItem>
+
+            <asp:ListItem Value="IL">Israel</asp:ListItem>
+
+            <asp:ListItem Value="IT">Italy</asp:ListItem>
+
+            <asp:ListItem Value="JM">Jamaica</asp:ListItem>
+
+            <asp:ListItem Value="JP">Japan</asp:ListItem>
+
+            <asp:ListItem Value="JO">Jordan</asp:ListItem>
+
+            <asp:ListItem Value="KZ">Kazakhstan</asp:ListItem>
+
+            <asp:ListItem Value="KE">Kenya</asp:ListItem>
+
+            <asp:ListItem Value="KI">Kiribati</asp:ListItem>
+
+            <asp:ListItem Value="KP">Korea, Dem People'S Republic</asp:ListItem>
+
+            <asp:ListItem Value="KR">Korea, Republic Of</asp:ListItem>
+
+            <asp:ListItem Value="KW">Kuwait</asp:ListItem>
+
+            <asp:ListItem Value="KG">Kyrgyzstan</asp:ListItem>
+
+            <asp:ListItem Value="LA">Lao People'S Dem Republic</asp:ListItem>
+
+            <asp:ListItem Value="LV">Latvia</asp:ListItem>
+
+            <asp:ListItem Value="LB">Lebanon</asp:ListItem>
+
+            <asp:ListItem Value="LS">Lesotho</asp:ListItem>
+
+            <asp:ListItem Value="LR">Liberia</asp:ListItem>
+
+            <asp:ListItem Value="LY">Libyan Arab Jamahiriya</asp:ListItem>
+
+            <asp:ListItem Value="LI">Liechtenstein</asp:ListItem>
+
+            <asp:ListItem Value="LT">Lithuania</asp:ListItem>
+
+            <asp:ListItem Value="LU">Luxembourg</asp:ListItem>
+
+            <asp:ListItem Value="MO">Macau</asp:ListItem>
+
+            <asp:ListItem Value="MK">Macedonia</asp:ListItem>
+
+            <asp:ListItem Value="MG">Madagascar</asp:ListItem>
+
+            <asp:ListItem Value="MW">Malawi</asp:ListItem>
+
+            <asp:ListItem Value="MY">Malaysia</asp:ListItem>
+
+            <asp:ListItem Value="MV">Maldives</asp:ListItem>
+
+            <asp:ListItem Value="ML">Mali</asp:ListItem>
+
+            <asp:ListItem Value="MT">Malta</asp:ListItem>
+
+            <asp:ListItem Value="MH">Marshall Islands</asp:ListItem>
+
+            <asp:ListItem Value="MQ">Martinique</asp:ListItem>
+
+            <asp:ListItem Value="MR">Mauritania</asp:ListItem>
+
+            <asp:ListItem Value="MU">Mauritius</asp:ListItem>
+
+            <asp:ListItem Value="YT">Mayotte</asp:ListItem>
+
+            <asp:ListItem Value="MX">Mexico</asp:ListItem>
+
+            <asp:ListItem Value="FM">Micronesia, Federated States</asp:ListItem>
+
+            <asp:ListItem Value="MD">Moldova, Republic Of</asp:ListItem>
+
+            <asp:ListItem Value="MC">Monaco</asp:ListItem>
+
+            <asp:ListItem Value="MN">Mongolia</asp:ListItem>
+
+            <asp:ListItem Value="MS">Montserrat</asp:ListItem>
+
+            <asp:ListItem Value="MA">Morocco</asp:ListItem>
+
+            <asp:ListItem Value="MZ">Mozambique</asp:ListItem>
+
+            <asp:ListItem Value="MM">Myanmar</asp:ListItem>
+
+            <asp:ListItem Value="NA">Namibia</asp:ListItem>
+
+            <asp:ListItem Value="NR">Nauru</asp:ListItem>
+
+            <asp:ListItem Value="NP">Nepal</asp:ListItem>
+
+            <asp:ListItem Value="NL">Netherlands</asp:ListItem>
+
+            <asp:ListItem Value="AN">Netherlands Ant Illes</asp:ListItem>
+
+            <asp:ListItem Value="NC">New Caledonia</asp:ListItem>
+
+            <asp:ListItem Value="NZ" Selected="True">New Zealand</asp:ListItem>
+
+            <asp:ListItem Value="NI">Nicaragua</asp:ListItem>
+
+            <asp:ListItem Value="NE">Niger</asp:ListItem>
+
+            <asp:ListItem Value="NG">Nigeria</asp:ListItem>
+
+            <asp:ListItem Value="NU">Niue</asp:ListItem>
+
+            <asp:ListItem Value="NF">Norfolk Island</asp:ListItem>
+
+            <asp:ListItem Value="MP">Northern Mariana Islands</asp:ListItem>
+
+            <asp:ListItem Value="NO">Norway</asp:ListItem>
+
+            <asp:ListItem Value="OM">Oman</asp:ListItem>
+
+            <asp:ListItem Value="PK">Pakistan</asp:ListItem>
+
+            <asp:ListItem Value="PW">Palau</asp:ListItem>
+
+            <asp:ListItem Value="PA">Panama</asp:ListItem>
+
+            <asp:ListItem Value="PG">Papua New Guinea</asp:ListItem>
+
+            <asp:ListItem Value="PY">Paraguay</asp:ListItem>
+
+            <asp:ListItem Value="PE">Peru</asp:ListItem>
+
+            <asp:ListItem Value="PH">Philippines</asp:ListItem>
+
+            <asp:ListItem Value="PN">Pitcairn</asp:ListItem>
+
+            <asp:ListItem Value="PL">Poland</asp:ListItem>
+
+            <asp:ListItem Value="PT">Portugal</asp:ListItem>
+
+            <asp:ListItem Value="PR">Puerto Rico</asp:ListItem>
+
+            <asp:ListItem Value="QA">Qatar</asp:ListItem>
+
+            <asp:ListItem Value="RE">Reunion</asp:ListItem>
+
+            <asp:ListItem Value="RO">Romania</asp:ListItem>
+
+            <asp:ListItem Value="RU">Russian Federation</asp:ListItem>
+
+            <asp:ListItem Value="RW">Rwanda</asp:ListItem>
+
+            <asp:ListItem Value="KN">Saint K Itts And Nevis</asp:ListItem>
+
+            <asp:ListItem Value="LC">Saint Lucia</asp:ListItem>
+
+            <asp:ListItem Value="VC">Saint Vincent, The Grenadines</asp:ListItem>
+
+            <asp:ListItem Value="WS">Samoa</asp:ListItem>
+
+            <asp:ListItem Value="SM">San Marino</asp:ListItem>
+
+            <asp:ListItem Value="ST">Sao Tome And Principe</asp:ListItem>
+
+            <asp:ListItem Value="SA">Saudi Arabia</asp:ListItem>
+
+            <asp:ListItem Value="SN">Senegal</asp:ListItem>
+
+            <asp:ListItem Value="SC">Seychelles</asp:ListItem>
+
+            <asp:ListItem Value="SL">Sierra Leone</asp:ListItem>
+
+            <asp:ListItem Value="SG">Singapore</asp:ListItem>
+
+            <asp:ListItem Value="SK">Slovakia (Slovak Republic)</asp:ListItem>
+
+            <asp:ListItem Value="SI">Slovenia</asp:ListItem>
+
+            <asp:ListItem Value="SB">Solomon Islands</asp:ListItem>
+
+            <asp:ListItem Value="SO">Somalia</asp:ListItem>
+
+            <asp:ListItem Value="ZA">South Africa</asp:ListItem>
+
+            <asp:ListItem Value="GS">South Georgia , S Sandwich Is.</asp:ListItem>
+
+            <asp:ListItem Value="ES">Spain</asp:ListItem>
+
+            <asp:ListItem Value="LK">Sri Lanka</asp:ListItem>
+
+            <asp:ListItem Value="SH">St. Helena</asp:ListItem>
+
+            <asp:ListItem Value="PM">St. Pierre And Miquelon</asp:ListItem>
+
+            <asp:ListItem Value="SD">Sudan</asp:ListItem>
+
+            <asp:ListItem Value="SR">Suriname</asp:ListItem>
+
+            <asp:ListItem Value="SJ">Svalbard, Jan Mayen Islands</asp:ListItem>
+
+            <asp:ListItem Value="SZ">Sw Aziland</asp:ListItem>
+
+            <asp:ListItem Value="SE">Sweden</asp:ListItem>
+
+            <asp:ListItem Value="CH">Switzerland</asp:ListItem>
+
+            <asp:ListItem Value="SY">Syrian Arab Republic</asp:ListItem>
+
+            <asp:ListItem Value="TW">Taiwan</asp:ListItem>
+
+            <asp:ListItem Value="TJ">Tajikistan</asp:ListItem>
+
+            <asp:ListItem Value="TZ">Tanzania, United Republic Of</asp:ListItem>
+
+            <asp:ListItem Value="TH">Thailand</asp:ListItem>
+
+            <asp:ListItem Value="TG">Togo</asp:ListItem>
+
+            <asp:ListItem Value="TK">Tokelau</asp:ListItem>
+
+            <asp:ListItem Value="TO">Tonga</asp:ListItem>
+
+            <asp:ListItem Value="TT">Trinidad And Tobago</asp:ListItem>
+
+            <asp:ListItem Value="TN">Tunisia</asp:ListItem>
+
+            <asp:ListItem Value="TR">Turkey</asp:ListItem>
+
+            <asp:ListItem Value="TM">Turkmenistan</asp:ListItem>
+
+            <asp:ListItem Value="TC">Turks And Caicos Islands</asp:ListItem>
+
+            <asp:ListItem Value="TV">Tuvalu</asp:ListItem>
+
+            <asp:ListItem Value="UG">Uganda</asp:ListItem>
+
+            <asp:ListItem Value="UA">Ukraine</asp:ListItem>
+
+            <asp:ListItem Value="AE">United Arab Emirates</asp:ListItem>
+
+            <asp:ListItem Value="GB">United Kingdom</asp:ListItem>
+
+            <asp:ListItem Value="US">United States</asp:ListItem>
+
+            <asp:ListItem Value="UM">United States Minor Is.</asp:ListItem>
+
+            <asp:ListItem Value="UY">Uruguay</asp:ListItem>
+
+            <asp:ListItem Value="UZ">Uzbekistan</asp:ListItem>
+
+            <asp:ListItem Value="VU">Vanuatu</asp:ListItem>
+
+            <asp:ListItem Value="VE">Venezuela</asp:ListItem>
+
+            <asp:ListItem Value="VN">Viet Nam</asp:ListItem>
+
+            <asp:ListItem Value="VG">Virgin Islands (British)</asp:ListItem>
+
+            <asp:ListItem Value="VI">Virgin Islands (U.S.)</asp:ListItem>
+
+            <asp:ListItem Value="WF">Wallis And Futuna Islands</asp:ListItem>
+
+            <asp:ListItem Value="EH">Western Sahara</asp:ListItem>
+
+            <asp:ListItem Value="YE">Yemen</asp:ListItem>
+
+            <asp:ListItem Value="YU">Yugoslavia</asp:ListItem>
+
+            <asp:ListItem Value="ZR">Zaire</asp:ListItem>
+
+            <asp:ListItem Value="ZM">Zambia</asp:ListItem>
+
+            <asp:ListItem Value="ZW">Zimbabwe</asp:ListItem>
+        </asp:DropDownList></td>
+        </tr>
+        <tr>
+            <td><asp:Label ID="Label11" runat="server" Text="Label">Time zone</asp:Label></td>
+            <td>
+                <asp:DropDownList ID="DropDownList2" runat="server">
+                      <asp:ListItem value="-12">(GMT-12:00) International dateline, west</asp:ListItem>
+                      <asp:ListItem value="-11">(GMT-11:00) Midway Islands, Samoan Islands</asp:ListItem>
+                      <asp:ListItem value="-10">(GMT-10:00) Hawaii</asp:ListItem>
+                      <asp:ListItem value="-9">(GMT-09:00) Alaska</asp:ListItem>
+                      <asp:ListItem value="-8">(GMT-08:00) Pacific Time (USA og Canada); Tijuana</asp:ListItem>
+                      <asp:ListItem value="-7">(GMT-07:00) Mountain Time (USA og Canada)</asp:ListItem>
+                      <asp:ListItem value="-6">(GMT-06:00) Central time (USA og Canada)</asp:ListItem>
+                      <asp:ListItem value="-5">(GMT-05:00) Eastern time (USA og Canada)</asp:ListItem>
+                      <asp:ListItem value="-4">(GMT-04:00) Atlantic Time (Canada)</asp:ListItem>
+                      <asp:ListItem value="-3.5">(GMT-03:30) Newfoundland</asp:ListItem>
+                      <asp:ListItem value="-3">(GMT-03:00) Brasilia</asp:ListItem>
+                      <asp:ListItem value="-2">(GMT-02:00) Mid-Atlantic</asp:ListItem>
+                      <asp:ListItem value="-1">(GMT-01:00) Azorerne</asp:ListItem>
+                      <asp:ListItem value="0" Selected="true">(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lissabon, London</asp:ListItem>
+                      <asp:ListItem value="1">(GMT+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien</asp:ListItem>
+                      <asp:ListItem value="2">(GMT+02:00) Athen, Istanbul, Minsk</asp:ListItem>
+                      <asp:ListItem value="3">(GMT+03:00) Moscow, St. Petersburg, Volgograd</asp:ListItem>
+                      <asp:ListItem value="3.5">(GMT+03:30) Teheran</asp:ListItem>
+                      <asp:ListItem value="4">(GMT+04:00) Abu Dhabi, Muscat</asp:ListItem>
+                      <asp:ListItem value="4.5">(GMT+04:30) Kabul</asp:ListItem>
+                      <asp:ListItem value="5">(GMT+05:00) Islamabad, Karachi, Tasjkent</asp:ListItem>
+                      <asp:ListItem value="5.5">(GMT+05:30) Kolkata, Chennai, Mumbai, New Delhi</asp:ListItem>
+                      <asp:ListItem value="5.75">(GMT+05:45) Katmandu</asp:ListItem>
+                      <asp:ListItem value="6">(GMT+06:00) Astana, Dhaka</asp:ListItem>
+                      <asp:ListItem value="6.5">(GMT+06:30) Rangoon</asp:ListItem>
+                      <asp:ListItem value="7">(GMT+07:00) Bangkok, Hanoi, Djakarta</asp:ListItem>
+                      <asp:ListItem value="8">(GMT+08:00) Beijing, Chongjin, SAR Hongkong, Ürümqi</asp:ListItem>
+                      <asp:ListItem value="9">(GMT+09:00) Osaka, Sapporo, Tokyo</asp:ListItem>
+                      <asp:ListItem value="9.5">(GMT+09:30) Adelaide</asp:ListItem>
+                      <asp:ListItem value="10">(GMT+10:00) Canberra, Melbourne, Sydney</asp:ListItem>
+                      <asp:ListItem value="11">(GMT+11:00) Magadan, Solomon Islands, New Caledonien</asp:ListItem>
+                      <asp:ListItem value="12">(GMT+12:00) Fiji, Kamtjatka, Marshall Islands</asp:ListItem>
+                      <asp:ListItem value="13">(GMT+13:00) Nuku'alofa</asp:ListItem>
+                </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td><asp:Label ID="Label1" runat="server" Text="Label">Date of birth</asp:Label></td>
+            <td>
+                <asp:RadioButton ID="RadioButton1"  runat="server" Text="Male" GroupName="gender"/>
+                <asp:RadioButton ID="RadioButton2" runat="server" Text="Female" GroupName="gender"/>
+                <asp:RadioButton ID="RadioButton3" runat="server" Text="Other" GroupName="gender"/>
+            </td>
+        </tr>
+    </table>
+
 </asp:Content>

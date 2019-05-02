@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" Async="true" MasterPageFile="~/Masters/Login.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="VirtualRobot.Login2" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-left: auto; margin-right: auto; text-align: center;">
+        <div style="background-color:white">
              <asp:Image ID="Image1" runat="server" Width="150px" Height="100px" src="/../Imagenes/LogoP.png"/>
              <br/>
+        </div>
              <asp:Label ID="Label1" CssClass="center" runat="server" Text="Label">Hello Human! Write down your</asp:Label>
              <br/>
              <asp:Label ID="Label2" CssClass="center" runat="server" Text="Label">Äarika citizenship credentials to continue</asp:Label>
@@ -18,7 +20,7 @@
              <br/>
              <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Registro.aspx">Create a new account to get your credentials!</asp:HyperLink>
              <br/>
-             <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="Login.aspx">Can't log in?</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="Recovery.aspx">Can't log in?</asp:HyperLink>
              <br/>
              <asp:Image ID="Image2" runat="server" Width="50px" Height="50px" src="/../Imagenes/Logo.png"/>
              <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">

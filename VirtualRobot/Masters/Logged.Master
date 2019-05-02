@@ -48,7 +48,7 @@
                     <asp:Label ID="Label6" runat="server" Text="Label">Human Profile</asp:Label>
                     <br />
                     <asp:Image ID="Image4" runat="server" />
-                    <asp:Label ID="Label7" runat="server" Text="Label">General Settings</asp:Label>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="../Vistas/Logeado/GeneralSettings.aspx">General Settings</asp:HyperLink>
                     <br />
                     <asp:Image ID="Image5" runat="server" />
                     <asp:Label ID="Label8" runat="server" Text="Label">Security Settings</asp:Label>

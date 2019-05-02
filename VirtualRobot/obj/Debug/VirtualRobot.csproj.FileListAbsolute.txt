@@ -387,4 +387,3 @@ C:\Users\jesus\Documents\gustavo\VirtualRobot\Virtual\VirtualRobot\bin\Google.Pr
 C:\Users\jesus\Documents\gustavo\VirtualRobot\Virtual\VirtualRobot\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\Users\jesus\Documents\gustavo\VirtualRobot\Virtual\VirtualRobot\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\jesus\Documents\gustavo\VirtualRobot\Virtual\VirtualRobot\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\jesus\Documents\gustavo\VirtualRobot\Virtual\VirtualRobot\obj\Debug\VirtualRobot.csprojAssemblyReference.cache

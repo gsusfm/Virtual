@@ -194,6 +194,9 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Estilo\Style.css" />
+    <Content Include="Vistas\Logeado\Delete.aspx" />
+    <Content Include="Vistas\Logeado\Editar.aspx" />
+    <Content Include="Vistas\Logeado\GeneralSettings.aspx" />
     <Content Include="Vistas\Logeado\Logged.aspx" />
     <Content Include="Vistas\Publico\DeleteSuccess.aspx" />
     <Content Include="Vistas\Publico\Login.aspx" />
@@ -349,6 +352,27 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Control\AppUsuarioManager.cs" />
     <Compile Include="Control\CuentaManager.cs" />
+    <Compile Include="Vistas\Logeado\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Editar.aspx.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Editar.aspx.designer.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.cs">
+      <DependentUpon>GeneralSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.designer.cs">
+      <DependentUpon>GeneralSettings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Logeado\Logged.aspx.cs">
       <DependentUpon>Logged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
