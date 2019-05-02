@@ -25,6 +25,64 @@
                 <p class="text-danger">
                     <asp:Literal runat="server" ID="FailureText" />
                 </p>
-             </asp:PlaceHolder>           
+             </asp:PlaceHolder>
+        <div class="popup">
+            <span class="popuptext" id="myPopup">
+                <p class="center">Virtual Robot® uses cookies inside it's websites to give you a better navigation experience.</p>
+                <button class="left" onclick="CookiesHide()">test</button><button class="right" style="">test</button>
+            </span>
+        </div>
     </div>
+<script>
+    
+    function Idioma() {
+        var cookie = sessionStorage.getItem("Cookie");
+        var idioma = sessionStorage.getItem("idioma");
+        if (cookie == "True") {
+            document.getElementById("Cookies_Disclaimer").style.visibility="hidden";
+        }
+        if (idioma == null) {
+            sessionStorage.setItem("idioma", "English");
+        } else {
+            if (idioma == "Español") {
+                document.getElementById("Hello").innerHTML = "Hola Humano! Escribe tus";
+                document.getElementById("Äarika").innerHTML = "credenciales de ciudadania Äarika ";
+                document.getElementById("to").innerHTML = "para continuar...";
+                document.getElementById("User").innerHTML = "Id de usuario o contraseña esta incorrecto! Intentelo de nuevo o cree una nueva cuenta.";
+                document.getElementById("continue").innerHTML = "Continuar";
+                document.getElementById("create").innerHTML = "Crear nueva cuenta para obtener tus credenciales!";
+                document.getElementById("log").innerHTML = "No te puedes logear?";                 
+            } else {
+                document.getElementById("Hello").innerHTML = "Hello Human! Write down your";
+                document.getElementById("Äarika").innerHTML = "Äarika citizenship credentials "; 
+                document.getElementById("to").innerHTML = "to continue...";
+                document.getElementById("User").innerHTML = "User ID or Password are incorrect! Try again or create a new account.";
+                document.getElementById("continue").innerHTML = "Continue";
+                document.getElementById("create").innerHTML = "Create a new account to get your credentials!";
+                document.getElementById("log").innerHTML = "Can't log in?";
+            }
+        }
+    }
+    function English() {
+        sessionStorage.removeItem("idioma");
+        sessionStorage.setItem("idioma", "English");
+        Idioma();
+    }
+    function Espanol() {
+        sessionStorage.removeItem("idioma");
+        sessionStorage.setItem("idioma", "Español");
+        Idioma();
+    }
+
+    function LanguageHover() {
+        document.getElementById("Bubble").style.visibility="visible";
+    }
+    function LanguageOut() {
+        document.getElementById("Bubble").style.visibility="hidden";
+    }
+    function CookiesHide() {
+        sessionStorage.setItem("Cookie", "True");
+        document.getElementById("myPopup").style.visibility="hidden";
+    }
+</script>
 </asp:Content>

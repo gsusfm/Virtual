@@ -194,8 +194,8 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Estilo\Style.css" />
-    <Content Include="Vistas\Logeado\GeneralSettings.aspx" />
     <Content Include="Vistas\Logeado\Logged.aspx" />
+    <Content Include="Vistas\Publico\DeleteSuccess.aspx" />
     <Content Include="Vistas\Publico\Login.aspx" />
     <Content Include="Modelo\Usuarios.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -332,6 +332,8 @@
     <Content Include="VistasSVG\Publico\Login.aspx" />
     <Content Include="VistasSVG\Publico\Registro.aspx" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Vistas\Publico\Recovery.aspx" />
+    <Content Include="Vistas\Publico\RecoverySuccess.aspx" />
     <Content Include="Vistas\Publico\Registro.aspx" />
     <Content Include="Vistas\Publico\RegistroSuccess.aspx" />
     <Content Include="Web.config">
@@ -347,13 +349,6 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Control\AppUsuarioManager.cs" />
     <Compile Include="Control\CuentaManager.cs" />
-    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.cs">
-      <DependentUpon>GeneralSettings.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.designer.cs">
-      <DependentUpon>GeneralSettings.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Vistas\Logeado\Logged.aspx.cs">
       <DependentUpon>Logged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -367,6 +362,13 @@
     </Compile>
     <Compile Include="Masters\Logged.Master.designer.cs">
       <DependentUpon>Logged.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Publico\DeleteSuccess.aspx.cs">
+      <DependentUpon>DeleteSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Publico\DeleteSuccess.aspx.designer.cs">
+      <DependentUpon>DeleteSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Publico\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -552,6 +554,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Publico\Recovery.aspx.cs">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Publico\Recovery.aspx.designer.cs">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Publico\RecoverySuccess.aspx.cs">
+      <DependentUpon>RecoverySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Publico\RecoverySuccess.aspx.designer.cs">
+      <DependentUpon>RecoverySuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Publico\Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>

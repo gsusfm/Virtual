@@ -59,3 +59,24 @@
 .auto-style4 {
     width: 167px;
 }
+
+.popup {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* The actual popup */
+    .popup .popuptext {
+        width: 200px;
+        background-color: #555;
+        color: #fff;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        margin-left: -80px;
+    }
