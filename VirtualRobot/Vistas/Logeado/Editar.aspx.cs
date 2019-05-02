@@ -12,26 +12,11 @@ namespace VirtualRobot.Vistas.Logeado
     public partial class Editar : System.Web.UI.Page
     {
         Jugador usuarioActual = new Jugador();
-        CuentaManager cuentaManager = new CuentaManager();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             usuarioActual = (Jugador)Session["UsuarioActual"];
-            TextBox1.Text = usuarioActual.nickname;
-            TextBox5.Text = Convert.ToDateTime(usuarioActual.fecNacimiento).ToString();
-            DropDownList1.Text = usuarioActual.paisResidencia;
-            DropDownList2.Text = usuarioActual.timeZone;
-            if (usuarioActual.genero == "M")
-            {
-            }
-            else if (usuarioActual.genero == "F")
-            {
 
-            }
-            else
-            {
-
-            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -39,32 +24,24 @@ namespace VirtualRobot.Vistas.Logeado
             Response.Redirect("Logged.aspx");
         }
 
-        //async protected void Button2_Click(object sender, EventArgs e)
-        //{
-        //    Jugador usuario = new Jugador()
-        //    {
-        //        email = TextBox2.Text,
-        //        nickname = TextBox1.Text,
-        //        passwordHash = TextBox3.Text,
-        //        passwordSalt = TextBox4.Text,
-        //        fecNacimiento = Convert.ToDateTime(TextBox5.Text),
-        //        genero = "M",
-        //        paisResidencia = DropDownList1.Text,
-        //        fecUltimaConexion = TextBox5.Text,
-        //        timeZone = DropDownList2.Text
-        //    };
-
-        //    Jugador usuarioRegistrado = await cuentaManager.FindUser(usuario);
-
-        //    if (!string.IsNullOrEmpty(usuarioRegistrado.nickname))
-        //    {
-        //        Response.Redirect("RegistroSuccess.aspx");
-        //    }
-        //    else
-        //    {
-        //        FailureText.Text = "Error en la creación del usuario.";
-        //        ErrorMessage.Visible = true;
-        //    }
-        //}
+        async protected void Button2_Click(object sender, EventArgs e)
+        {
+            Jugador jugador = new Jugador()
+            {
+                idJugador = usuarioActual.idJugador,
+                email = usuarioActual.email,
+                nickname = TextBox1.Text,
+                passwordHash = usuarioActual.passwordHash,
+                passwordSalt = usuarioActual.passwordSalt,               
+                fecNacimiento = Convert.ToDateTime(TextBox5.Text),
+                genero = RadioButtonList1.SelectedValue,
+                paisResidencia = DropDownList1.SelectedValue,
+                fecUltimaConexion = usuarioActual.fecUltimaConexion,
+                timeZone = DropDownList2.SelectedValue
+            };
+            var cuentaManager = new CuentaManager();
+            Jugador usuarioRegistrado = await cuentaManager.Update(usuarioActual,jugador);
+            Response.Redirect("../Publico/Login.aspx");
+        }
     }
 }

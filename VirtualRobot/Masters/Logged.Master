@@ -26,9 +26,17 @@
                     <asp:Label ID="Label2" CssClass="center" runat="server" Text="Label">Äarika Citizenship Portal</asp:Label>
                 </td>
                 <td class="auto-style3" style="margin-left: auto; margin-right: auto; text-align: center;">
-                    <asp:Image ID="Image6" runat="server" src="/../Imagenes/Coin.png" CssClass="left" Width="20px" Height="20px"/>
+                    <asp:Image ID="Image6" runat="server" src="/../Imagenes/Coin.png" CssClass="left" Width="20px" Height="20px"/>                    
+                    <asp:Label ID="Bell" runat="server" CssClass="center" target="_blank"><i class="fa fa-bell"></i></asp:Label>
                     <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
-                    <asp:Image ID="Image7" runat="server" src="/../Imagenes/Usa.png" CssClass="right" Width="20px" Height="20px"/>
+                    <asp:Image ID="Image8" runat="server" src="/../Imagenes/Usa.png" CssClass="center" Width="20px" Height="20px"/>
+                    <asp:Image ID="Image7" runat="server" src="/../Imagenes/Usa.png" CssClass="dropdown" Width="20px" Height="20px"/>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="LogOut" />
                 </td>
             </tr>   
         </table>      
@@ -36,7 +44,7 @@
         <table style="width:100%; background-color:#f5f5f5">
             <tr>
                 <td class="auto-style4">
-                    <asp:Image ID="Image2" runat="server" />
+                    <asp:Image ID="Image2" runat="server"  src="/../Imagenes/Usa.png" CssClass="center"/>
                     <br />
                     <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                     <br />
@@ -44,14 +52,17 @@
                     <br />
                     <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
                     <br />
-                    <asp:Image ID="Image3" runat="server" />
-                    <asp:Label ID="Label6" runat="server" Text="Label">Human Profile</asp:Label>
+                    <asp:Image ID="Image3" runat="server" src="/../Imagenes/Usa.png" Height="30px" Width="30px"/>
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="../Vistas/Logeado/Logged.aspx">Human Profile</asp:HyperLink>
                     <br />
-                    <asp:Image ID="Image4" runat="server" />
+                    <asp:Image ID="Image4" runat="server" src="/../Imagenes/Usa.png" Height="30px" Width="30px"/>
                     <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="../Vistas/Logeado/GeneralSettings.aspx">General Settings</asp:HyperLink>
                     <br />
-                    <asp:Image ID="Image5" runat="server" />
-                    <asp:Label ID="Label8" runat="server" Text="Label">Security Settings</asp:Label>
+                    <asp:Image ID="Image5" runat="server" src="/../Imagenes/Usa.png" Height="30px" Width="30px"/>
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="../Vistas/Logeado/SecuritySettings.aspx">Security Settings</asp:HyperLink>                  
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Beta Testing Program" OnClick="Button1_Click" />
+
                 </td>
                 <td>
                     <div>          

@@ -7,9 +7,9 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace VirtualRobot {
+namespace VirtualRobot.Vistas.Logeado {
     
     
-    public partial class GeneralSettings2 {
+    public partial class GeneralSettings {
     }
 }

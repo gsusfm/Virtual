@@ -22,5 +22,16 @@ namespace VirtualRobot
             Label5.Text = usuarioActual.idJugador.ToString();
             Label9.Text = usuarioActual.nickname;
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Beta.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect("../Publico/Login.aspx");
+        }
     }
 }

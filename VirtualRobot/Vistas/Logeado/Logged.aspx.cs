@@ -17,20 +17,16 @@ namespace VirtualRobot
         protected void Page_Load(object sender, EventArgs e)
         {
             usuarioActual = (Jugador)Session["UsuarioActual"];
-            TextBox1.Text = usuarioActual.nickname;
-            TextBox5.Text = Convert.ToDateTime(usuarioActual.fecNacimiento).ToString();
-            DropDownList1.Text = usuarioActual.paisResidencia;
-            DropDownList2.Text = usuarioActual.timeZone;
-            if(usuarioActual.genero == "M")
-            {
-            }else if (usuarioActual.genero == "F")
-            {
+            Label2.Text = usuarioActual.nickname;
+            Label3.Text = Convert.ToDateTime(usuarioActual.fecNacimiento).ToString();
+            Label4.Text = usuarioActual.paisResidencia;
+            Label6.Text = usuarioActual.timeZone;
+            Label7.Text = usuarioActual.genero;
+        }
 
-            }
-            else
-            {
-
-            }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Editar.aspx");
         }
     }
 }

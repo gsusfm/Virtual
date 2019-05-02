@@ -194,10 +194,19 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Estilo\Style.css" />
+    <Content Include="Vistas\Logeado\Awards.aspx" />
+    <Content Include="Vistas\Logeado\Beta.aspx" />
+    <Content Include="Vistas\Logeado\BetaDNA.aspx" />
+    <Content Include="Vistas\Logeado\BetaMember.aspx" />
+    <Content Include="Vistas\Logeado\BetaMemberPage.aspx" />
+    <Content Include="Vistas\Logeado\Contact.aspx" />
+    <Content Include="Vistas\Logeado\ContactSuccess.aspx" />
     <Content Include="Vistas\Logeado\Delete.aspx" />
     <Content Include="Vistas\Logeado\Editar.aspx" />
     <Content Include="Vistas\Logeado\GeneralSettings.aspx" />
     <Content Include="Vistas\Logeado\Logged.aspx" />
+    <Content Include="Vistas\Logeado\SecuritySettingsEditar.aspx" />
+    <Content Include="Vistas\Logeado\SecuritySettings.aspx" />
     <Content Include="Vistas\Publico\DeleteSuccess.aspx" />
     <Content Include="Vistas\Publico\Login.aspx" />
     <Content Include="Modelo\Usuarios.Context.tt">
@@ -352,6 +361,55 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Control\AppUsuarioManager.cs" />
     <Compile Include="Control\CuentaManager.cs" />
+    <Compile Include="Vistas\Logeado\Awards.aspx.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Awards.aspx.designer.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Beta.aspx.cs">
+      <DependentUpon>Beta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Beta.aspx.designer.cs">
+      <DependentUpon>Beta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaDNA.aspx.cs">
+      <DependentUpon>BetaDNA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaDNA.aspx.designer.cs">
+      <DependentUpon>BetaDNA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaMember.aspx.cs">
+      <DependentUpon>BetaMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaMember.aspx.designer.cs">
+      <DependentUpon>BetaMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaMemberPage.aspx.cs">
+      <DependentUpon>BetaMemberPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\BetaMemberPage.aspx.designer.cs">
+      <DependentUpon>BetaMemberPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\ContactSuccess.aspx.cs">
+      <DependentUpon>ContactSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\ContactSuccess.aspx.designer.cs">
+      <DependentUpon>ContactSuccess.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Logeado\Delete.aspx.cs">
       <DependentUpon>Delete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -386,6 +444,20 @@
     </Compile>
     <Compile Include="Masters\Logged.Master.designer.cs">
       <DependentUpon>Logged.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\SecuritySettingsEditar.aspx.cs">
+      <DependentUpon>SecuritySettingsEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\SecuritySettingsEditar.aspx.designer.cs">
+      <DependentUpon>SecuritySettingsEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Logeado\SecuritySettings.aspx.cs">
+      <DependentUpon>SecuritySettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\SecuritySettings.aspx.designer.cs">
+      <DependentUpon>SecuritySettings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Publico\DeleteSuccess.aspx.cs">
       <DependentUpon>DeleteSuccess.aspx</DependentUpon>

@@ -27,5 +27,10 @@ namespace VirtualRobot.Vistas.Logeado
 
             Response.Redirect("../Publico/DeleteSuccess.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("GeneralSettings.aspx");
+        }
     }
 }

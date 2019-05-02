@@ -31,17 +31,20 @@
         <div class="popup">
             <span class="popuptext" id="myPopup">
                 <p class="center">Virtual Robot® uses cookies inside it's websites to give you a better navigation experience.</p>
-                <button class="left" onclick="CookiesHide()">test</button><button class="right" style="">test</button>
+                <a class="left" onclick="CookiesHide()">test</a><a class="right" style="">test</a>
             </span>
         </div>
     </div>
 <script>
+    window.onload = function () {
+        Idioma();
+    }
     
     function Idioma() {
         var cookie = sessionStorage.getItem("Cookie");
         var idioma = sessionStorage.getItem("idioma");
         if (cookie == "True") {
-            document.getElementById("Cookies_Disclaimer").style.visibility="hidden";
+            document.getElementById("myPopup").style.visibility="hidden";
         }
         if (idioma == null) {
             sessionStorage.setItem("idioma", "English");

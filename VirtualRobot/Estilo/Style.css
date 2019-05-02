@@ -24,11 +24,13 @@
 }
 
 .dropdown {
+    float: right;
     position: relative;
     display: inline-block;
 }
 
 .dropdown-content {
+    float: right;
     display: none;
     position: absolute;
     background-color: #f1f1f1;

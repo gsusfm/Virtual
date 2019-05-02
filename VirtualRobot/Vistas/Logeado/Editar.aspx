@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/Logged.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="VirtualRobot.Vistas.Logeado.Editar" %>
+﻿<%@ Page Title="" Language="C#" Async="true" MasterPageFile="~/Masters/Logged.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="VirtualRobot.Vistas.Logeado.Editar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table style="width:100%;">
         <tr>
@@ -529,17 +529,15 @@
                 </asp:DropDownList>
             </td>
         </tr>
-        <tr>
-            <td><asp:Label ID="Label1" runat="server" Text="Label">Date of birth</asp:Label></td>
-            <td>
-                <asp:RadioButton ID="RadioButton1"  runat="server" Text="Male" GroupName="gender"/>
-                <asp:RadioButton ID="RadioButton2" runat="server" Text="Female" GroupName="gender"/>
-                <asp:RadioButton ID="RadioButton3" runat="server" Text="Other" GroupName="gender"/>
-            </td>
-        </tr>
     </table>
     <div>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
-    </div>
+        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+            <asp:ListItem Value="M">Male</asp:ListItem>
+            <asp:ListItem Value="F">Female</asp:ListItem>
+            <asp:ListItem Value="N">Other</asp:ListItem>
+        </asp:RadioButtonList>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Back" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Edit" />
+        <br />
+        Para completar los cambio es necesario logearse de nuevo</div>
 </asp:Content>

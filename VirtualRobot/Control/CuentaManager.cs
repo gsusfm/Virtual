@@ -23,17 +23,17 @@ namespace VirtualRobot.Control
             return client;
         }
 
-        //public async Task<List<Jugador>> Update(Jugador usuarioActual)
-        //{
-        //    HttpClient client = GetClient(usuarioActual.CadenaToken);
+        public async Task<Jugador> Update(Jugador usuarioActual,Jugador usuarioUpdate)
+        {
 
-        //    var uri = new Uri(URL + usuarioActual.idJugador);
+            HttpClient client = GetClient(usuarioActual.CadenaToken);
+            var uri = new Uri(URL + usuarioActual.idJugador);
+            var response = await client.PutAsync(uri,
+                new StringContent(JsonConvert.SerializeObject(usuarioUpdate),
+                Encoding.UTF8, "application/json"));
 
-        //    var response = await client.PutAsync(usuarioActual.idJugador.ToString(), uri);
-
-        //    return JsonConvert.DeserializeObject<List<Jugador>>(response);
-
-        //}
+            return JsonConvert.DeserializeObject<Jugador>(await response.Content.ReadAsStringAsync());
+        }
 
         public async Task<Jugador> Delete(Jugador usuarioActual)
         {
