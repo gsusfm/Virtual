@@ -7,19 +7,20 @@
              <br/>
              <asp:Label ID="Label2" CssClass="center" runat="server" Text="Label">Äarika citizenship credentials to continue</asp:Label>
              <br/>
-             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+             <asp:TextBox ID="TextBox1" runat="server" Placeholder="Username ID/E-Mail Address"></asp:TextBox>
              <br/>
-             <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+             <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" Placeholder="Password"></asp:TextBox>
              <br/>
              <label>
                 <asp:CheckBox ID="Persist" runat="server" Text="Recordarme" />
              </label>
              <asp:Button ID="Button1" runat="server" Text="Continue" OnClick="Button1_Click" />
              <br/>
-             <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Login.aspx">Create a new account to get your credentials!</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Registro.aspx">Create a new account to get your credentials!</asp:HyperLink>
              <br/>
              <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="Login.aspx">Can't log in?</asp:HyperLink>
              <br/>
+             <asp:Image ID="Image2" runat="server" Width="50px" Height="50px" src="/../Imagenes/Logo.png"/>
              <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                 <p class="text-danger">
                     <asp:Literal runat="server" ID="FailureText" />

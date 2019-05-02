@@ -8,7 +8,7 @@
     <title>hola</title>
 </head>
 <body>
-   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
   <defs>
     <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 381 49">
       <image width="381" height="49" xlink:href="/../Imagenes/Links.png"/>

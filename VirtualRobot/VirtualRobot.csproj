@@ -193,6 +193,8 @@
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Estilo\Style.css" />
+    <Content Include="Vistas\Logeado\GeneralSettings.aspx" />
     <Content Include="Vistas\Logeado\Logged.aspx" />
     <Content Include="Vistas\Publico\Login.aspx" />
     <Content Include="Modelo\Usuarios.Context.tt">
@@ -331,6 +333,7 @@
     <Content Include="VistasSVG\Publico\Registro.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Vistas\Publico\Registro.aspx" />
+    <Content Include="Vistas\Publico\RegistroSuccess.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -344,6 +347,13 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Control\AppUsuarioManager.cs" />
     <Compile Include="Control\CuentaManager.cs" />
+    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.cs">
+      <DependentUpon>GeneralSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Logeado\GeneralSettings.aspx.designer.cs">
+      <DependentUpon>GeneralSettings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Logeado\Logged.aspx.cs">
       <DependentUpon>Logged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -549,6 +559,13 @@
     </Compile>
     <Compile Include="Vistas\Publico\Registro.aspx.designer.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Publico\RegistroSuccess.aspx.cs">
+      <DependentUpon>RegistroSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Publico\RegistroSuccess.aspx.designer.cs">
+      <DependentUpon>RegistroSuccess.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

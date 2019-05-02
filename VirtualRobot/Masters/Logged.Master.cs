@@ -20,6 +20,7 @@ namespace VirtualRobot
             Label3.Text = "Welcome " + usuarioActual.nickname;
             Label4.Text = "Active";
             Label5.Text = usuarioActual.idJugador.ToString();
+            Label9.Text = usuarioActual.nickname;
         }
     }
 }

@@ -8,31 +8,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Estilo/Style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style type="text/css">
-        .auto-style3 {
-            width: 277px;
-        }
-        .left {
-            display: inline-block;
-            float: left;
-        }
-        .right {
-            display: inline-block;
-            float: right;
-        }
-        .center{
-            text-align:center;
-        }
-        .bubble{
-            position: absolute;
-            top: 0;
-            right: 0;
-            border-radius: 50%;
-        }
-    </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
 <body>
     <form id="form1" runat="server">
@@ -53,7 +32,7 @@
                     <asp:Label ID="Label1" CssClass="center" runat="server" Text="Label">© 2016 - 2019 Virtual Robot®. Biowiza S.A. All Rights Reserved.</asp:Label>
                 </td>
                 <td class="right">
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="/../Documentos/VR BETA TESTING NDA.pdf" target="_blank">Terms of Use</asp:HyperLink>|<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="/../Documentos/VR BETA TESTING NDA.pdf" target="_blank">Privacy Policy</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="/../Documentos/English/Terms of Use.pdf" target="_blank">Terms of Use</asp:HyperLink>|<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="/../Documentos/English/Virtual Robot Privacy Policy.pdf" target="_blank">Privacy Policy</asp:HyperLink>
                 </td>
             </tr>   
         </table>

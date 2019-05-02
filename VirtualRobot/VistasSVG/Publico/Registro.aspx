@@ -8,7 +8,7 @@
     <title>hola</title>
 </head>
 <body>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"viewBox="0 0 1920 1080">
   <defs>
     <filter id="Rectangle_14" x="516" y="20" width="863" height="1004.954" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>

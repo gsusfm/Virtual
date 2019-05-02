@@ -9,28 +9,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Estilo/Style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style type="text/css">
-        .auto-style3 {
-            width: 277px;
-        }
-        .left {
-            display: inline-block;
-            float: left;
-        }
-        .right {
-            display: inline-block;
-            float: right;
-        }
-        .center{
-            text-align:center;
-        }
-        .auto-style4 {
-            width: 167px;
-        }
-    </style>
     </head>
 <body>
     <form id="form1" runat="server">
@@ -44,9 +26,9 @@
                     <asp:Label ID="Label2" CssClass="center" runat="server" Text="Label">Äarika Citizenship Portal</asp:Label>
                 </td>
                 <td class="auto-style3" style="margin-left: auto; margin-right: auto; text-align: center;">
-                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="https://www.facebook.com/robotvirtual/" CssClass="left" target="_blank"><i class="fa text-muted social-icons">&#xf082;</i></asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="https://twitter.com/robotvirtual" CssClass="center" target="_blank"><i class="fa text-muted social-icons">&#xf099;</i></asp:HyperLink>
-                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="http://instagram.com/robotvirtual" CssClass="right" target="_blank"><i class="fa text-muted social-icons">&#xf16d;</i></asp:HyperLink>
+                    <asp:Image ID="Image6" runat="server" src="/../Imagenes/Coin.png" CssClass="left" Width="20px" Height="20px"/>
+                    <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+                    <asp:Image ID="Image7" runat="server" src="/../Imagenes/Usa.png" CssClass="right" Width="20px" Height="20px"/>
                 </td>
             </tr>   
         </table>      
@@ -91,7 +73,7 @@
                     <asp:Label ID="Label1" CssClass="center" runat="server" Text="Label">© 2016 - 2019 Virtual Robot®. Biowiza S.A. All Rights Reserved.</asp:Label>
                 </td>
                 <td>
-                    <asp:HyperLink ID="HyperLink1" CssClass="right" runat="server" NavigateUrl="/../Documentos/VR BETA TESTING NDA.pdf" target="_blank">Terms of Use|Privacy Policy</asp:HyperLink> 
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="/../Documentos/English/Terms of Use.pdf" target="_blank">Terms of Use</asp:HyperLink>|<asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="/../Documentos/English/Virtual Robot Privacy Policy.pdf" target="_blank">Privacy Policy</asp:HyperLink>
                 </td>
             </tr>   
         </table>
